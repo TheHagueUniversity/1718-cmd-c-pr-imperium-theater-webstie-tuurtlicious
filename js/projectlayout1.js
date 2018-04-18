@@ -17,18 +17,6 @@ window.onload = function(){
         onChange: () => {},
     });
 
-    document.getElementsByClassName('links')[0].onclick = function(){
-        mijnSlider.prev(1);
-        clearTimeout(timeout);
-        loop();
-    };
-
-    document.getElementsByClassName('rechts')[0].onclick = function(){
-        mijnSlider.next(1);
-        clearTimeout(timeout);
-        loop();
-    };
-
     function loop(){
         timeout = setTimeout(function(){
             mijnSlider.next(1);

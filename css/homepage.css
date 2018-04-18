@@ -1,0 +1,189 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  background: white;
+  overflow: auto;
+}
+main {
+  background: white;
+  
+}
+footer {
+  background: lightblue;
+}
+main, section, article, footer {
+  padding: 20px;
+  overflow: auto;
+}
+
+h2 {
+  text-align: center;
+}
+nav {
+
+}
+a:link {
+ color: darkred;
+ text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+a:hover{
+  color: red;
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;  
+}
+
+.logo {
+  display: inline;
+  margin: 5px;
+}
+
+.headmenu {
+  float: right;
+  width: 900px;
+} 
+
+.headmenu ul li {
+  float: left;
+  list-style: none;
+  margin: 2%;
+  padding-top: 20px;
+}
+
+.voorstellingen {
+  float: left;
+  width: 60%;
+}
+
+.headimg{
+  margin-left: 80px;
+  width: 100%;
+  overflow: hidden;
+}
+
+aside {
+  float: left;
+  width: 40%;
+}
+
+.slider{
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+}
+
+.siema{
+  margin-left: 59px;
+  max-width: 1200px;
+  z-index: 10;
+}
+
+.siema img {
+  width: 1000px;
+  height: auto;
+}
+
+.links, .rechts{
+  position: absolute;
+  top:250px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  size: 20%;  
+}
+
+.calendar {
+  width: 90%;
+}
+.month {
+    padding: 70px 25px;
+    background: #da0043;
+    text-align: center;
+}
+
+.month ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #ddd;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+}
+
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: #777;
+}
+
+.days li .active {
+    padding: 5px;
+    background: #da0043;
+    color: white !important
+}
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:720px) {
+    .weekdays li, .days li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+    .weekdays li, .days li {width: 12.5%;}
+    .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+    .weekdays li, .days li {width: 12.2%;}
+}
