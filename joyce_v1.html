@@ -19,12 +19,16 @@
 
     <div class="logo">
       <a href="joyce_v1.html"><img src="img/JEMA.png"/></a>
-    </div> 
+      <!-- REVIEW: alt attribuut bij img mist -->
+    </div>
 
     <nav class="headmenu">
       <ul>
         <li><a href="agenda.html" target="_self">AGENDA</a></li>
         <li>THEATER HUREN</li>
+        <!-- REVIEW: zou ook gewoon clickable moeten zijn
+        hoofdletters zijn ook vorm van styling en zou je met CSS moeten doen, dus geen hoofdletters in je HTML
+       -->
         <li><a href="lid_worden.html" target="_self">LID WORDEN</a></li>
         <li><a href="fotos.html" target="_self">FOTO'S</a></li>
         <li><a href="overons.html" target="_self">OVER ONS</a></li>
@@ -35,7 +39,7 @@
 
   </header>
 
-  <main> 
+  <main>
 
     <!--Dit is de banner voor het jubileum van het Imperium Theater-->
 
@@ -45,10 +49,11 @@
 
     <hr>
     <br />
+    <!-- REVIEW: <br/> wordt hier gebruikt als styling en is niet toegestaan -->
 
     <!--Dit zijn de voorstellingen die speciaal draaien vanwege het jubileum, in de vorm van een slider met behulp van javascript-->
     <h2>VOORSTELLINGEN JUBILEUM VIERING</h2>
-    
+    <!-- REVIEW: hoofdletters in CSS -->
     <section class="slider">
       <div class="siema">
         <div> <img  src="img/toneel1.jpg"/></div>
@@ -69,18 +74,19 @@
     <br />
     <hr>
     <br />
+    <!-- REVIEW: gebruik margins in CSS in plaats van br -->
 
     <section class="lidworden">
       <figure>
         <img src="img/help.jpg" alt="Lid worden" width="500" heigh="350">
       </figure>
     </section>
-   
+
     <aside>
       <article class="join">
         <!--Paraaf tekst over het lid worden van de toneelgroep van imperium-->
         <h2>Lid worden?</h2>
-        <p>Onze vereniging kan altijd enthousiaste en hardwerkende theatermakers gebruiken. 
+        <p>Onze vereniging kan altijd enthousiaste en hardwerkende theatermakers gebruiken.
           Theatermakers, ja, want bij Imperium komt méér kijken dan alleen toneelspelen.
           Voor onze producties op de planken staan zijn veel leden actief met het uitzoeken van stukken, aantrekken van regisseurs, decor bouwen, lichtplannen maken, kleding, grime, pr, theater inrichten, lampen ophangen, verspreiden van flyers en affiches en niet te vergeten het schoonhouden van ons eigen theater en het draaien van bar- en kassadiensten bij voorstellingen.
           <br />
