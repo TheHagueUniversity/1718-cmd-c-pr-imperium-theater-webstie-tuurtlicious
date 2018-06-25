@@ -1,5 +1,5 @@
 body {
-  font-family: Helvetica, sans-serif;
+  font-family: CenturyGothic, sans-serif;
 }
 
 * {
@@ -54,6 +54,7 @@ a:hover{
 .headmenu {
   float: right;
   width: 900px;
+  text-transform: uppercase;
 } 
 
 .headmenu ul li {
@@ -66,6 +67,11 @@ a:hover{
 .lidworden {
   float: left;
   width: 60%;
+}
+
+.join {
+  float: right;
+  
 }
 
 .headimg{
@@ -125,7 +131,7 @@ aside {
 }
 
 .calendar {
-  width: 90%;
+  width: 100%;
 }
 .month {
     padding: 70px 25px;
@@ -203,4 +209,23 @@ aside {
 
 @media screen and (max-width: 290px) {
     .weekdays li, .days li {width: 12.2%;}
+}
+
+#h2lidworden {
+  float:left;
+
+}
+
+.introlid {
+  float:left;
+}
+
+.lidfoto {
+  float:right;
+  max-width:200px;
+}
+
+.algemeen {
+  background-color: #9fcfd1;
+
 }

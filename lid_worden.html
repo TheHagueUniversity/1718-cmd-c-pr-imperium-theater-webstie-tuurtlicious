@@ -9,25 +9,113 @@
     </head>
 
     <body>
+        <div class="container">
         <header>
             <div class="logo">
                 <a href="joyce_v1.html"><img src="img/JEMA.png"/></a>
-            </div> 
-            <nav class="headmenu">
+              </div> 
+          
+              <nav class="headmenu">
                 <ul>
-                    <li><a href="agenda.html">Agenda</a></li>
-                    <li>Theater huren</li>
-                    <li><a href="lid_worden.html">Lid worden</a></li>
-                    <li><a href="fotos.html">Foto's</a></li>
-                    <li><a href="overons.html">Over ons</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="login.html">Log in</a></li>
+                  <li><a href="agenda.html" target="_self">Agenda</a></li>
+                  <li>Theater huren</li>
+                  <li><a href="lid_worden.html" target="_self">Lid worden</a></li>
+                  <li><a href="fotos.html" target="_self">Foto's</a></li>
+                  <li><a href="over_ons.html" target="_self">Over ons</a></li>
+                  <li><a href="contact.html" target="_self">Contact</a></li>
+                  <li><a href="login.html" target="_self">Log in</a></li>
                 </ul>
-            </nav>
+              </nav>
         </header>
 
-        <main>
+        <main class="lidwordenpagina">
+          <h2 id="h2lidworden">Lid worden</h2>
+            <div class="lidwordentekst">
+                <p class="introlid">Onze vereniging kan altijd enthousiaste en hardwerkende theatermakers gebruiken. Theatermakers, ja, want bij Imperium komt méér kijken dan alleen toneelspelen.
 
+                        Voor onze producties op de planken staan zijn veel leden actief met het uitzoeken van stukken, aantrekken van regisseurs, decor bouwen, lichtplannen maken, kleding, grime, pr, theater inrichten, lampen ophangen, verspreiden van flyers en affiches en niet te vergeten het schoonhouden van ons eigen theater en het draaien van bar- en kassadiensten bij voorstellingen.
+                        
+                        Veel? Ja! Maar wel heel leuk als je van theatermaken houdt. En daarnaast wordt er natuurlijk óók nog toneelgespeeld!</p>
+            </div>
+            <section>
+              <img src="img/foto1.jpg" alt="lidworden" id="lidfoto"/>
+            </section>
+            <div class="inschrijfformulier">Inschrijfformulier
+            <form action="#">
+                <fieldset id="algemeen"> 
+                    <legend>Algemene gegevens</legend>
+                      <label for="name">Voor- en achternaam
+                        <input type="text" name="name" placeholder="e.g. Joyce Cheung"><br />
+                      </label>
+                      <label for="adres">Adres
+                        <input type="text" name="adres" placeholder="Stationsplein 1"><br />
+                     </label>
+                     <label for="postcode">Postcode
+                      <input type="text" name="postcode" placeholder="2204NA"><br />
+                    </label>
+                    <label for="woonplaats">Woonplaats
+                      <input type="text" name="woonplaats" placeholder="Den Haag"><br />
+                    </label>
+                  
+                    <label for="telefoonnummer">Telefoonnummer  
+                      <input type="number" placeholder="0201234567"><br />
+                    </label>
+                    <label for="mobielnummer">Mobiele nummer
+                        <input type="number" name="mobielnummer" placeholder="0612345678"><br />
+                    </label>
+                    <label for="email">E-mail
+                        <input type="email" name="mail" placeholder="youremail@mail.com"><br /
+                    ></label>
+                    <label for="birthdate">Geboortedatum
+                        <input type="date" name="birthdate">
+                    </label>
+                </fieldset>
+                <fieldset id="commissiewerk">
+                    <legend>Ondersteunend commissiewerk*</legend>
+                    <label>
+                        <input type="checkbox" name="decor"> Decor bouwen
+                    </label><br />
+                    <label>
+                        <input type="checkbox" name="kleding"> Kleding maken/uitzoeken
+                    </label><br />
+                    <label>
+                        <input type="checkbox" name="schrijven"> Tekst schrijven voor impressie en website
+                    </label><br />
+                    <label>
+                        <input type="checkbox" name="techniek"> Techniek (licht/geluid)
+                    </label><br />
+                    <label>
+                        <input type="checkbox" name="algemeen"> Algemene PR activiteiten
+                    </label><br />
+                    <label>
+                        <input type="checkbox" name="fotos"> Foto's maken (voor PR)
+                    </label><br />
+                    <label>
+                        <input type="checkbox" name="web"> Website onderhouden
+                    </label><br />
+                    <label>
+                        <input type="checkbox" name="others"> Anders, te weten
+                    </label><br />
+                    <label>
+                        *aankruisen wat van toepassing is
+                    </label><br />
+                </fieldset>
+                <fieldset id="interesse">
+                    <legend>Interesse</legend>
+                    <label>
+                        <input type="checkbox" name="lid"> Ik word toneelspelend lid met aanvullende activiteiten
+                    </label><br />
+                    <label>
+                        <input type="checkbox" name="commissielid"> Ik word alleen lid van een commissie
+                    </label><br />
+                    <label>
+                        *aankruisen wat van toepassing is
+                    </label>
+                </fieldset>
+                <input type="submit" value="Submit">
+              </form>
+              </div>
         </main>
+        </div>
    </body>
 </html>
